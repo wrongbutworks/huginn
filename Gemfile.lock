@@ -389,7 +389,7 @@ GEM
     libv8-node (24.12.0.1-x86_64-darwin)
     libv8-node (24.12.0.1-x86_64-linux)
     lint_roller (1.1.0)
-    liquid (5.12.0)
+    liquid (5.13.0)
       bigdecimal
       strscan (>= 3.1.1)
     listen (3.10.0)
@@ -508,8 +508,9 @@ GEM
     omniauth-oauth2 (1.9.0)
       oauth2 (>= 2.0.2, < 3)
       omniauth (~> 2.0)
-    omniauth-twitter (1.4.0)
-      omniauth-oauth (~> 1.1)
+    omniauth-twitter (1.5.0)
+      cgi
+      omniauth-oauth (~> 1.2)
       rack
     orm_adapter (0.5.0)
     os (1.1.4)
@@ -845,7 +846,7 @@ DEPENDENCIES
   kaminari (~> 1.2, >= 1.2.2)
   kramdown
   letter_opener_web
-  liquid (~> 5.12)
+  liquid (~> 5.13)
   listen
   logger
   loofah (~> 2.25, >= 2.25.1)
